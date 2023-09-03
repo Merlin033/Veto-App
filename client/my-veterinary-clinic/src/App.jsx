@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import ClientList from './components/ClientList';
+import Root from './routes/root';
 
 function App() {
     return (
         <div className="App">
-            <ClientList />
+            <Root />
         </div>
     );
 }
